@@ -77,8 +77,8 @@ impl BTree {
 }
 
 fn main() {
-    let m: u32 = read::read();
-    let commands: Vec<String> = read::read_col(m);
+    let m: u32 = read();
+    let commands: Vec<String> = read_col(m);
 
     let mut tree = Empty;
 

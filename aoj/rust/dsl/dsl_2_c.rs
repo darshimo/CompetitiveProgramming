@@ -103,13 +103,13 @@ fn find_kdtree(
 }
 
 fn main() {
-    let n: u32 = read::read();
-    let mut points: Vec<Vec<i32>> = read::read_vec2(n);
+    let n: u32 = read();
+    let mut points: Vec<Vec<i32>> = read_vec2(n);
     for i in 0..n {
         points[i as usize].push(i as i32);
     }
-    let q: u32 = read::read();
-    let ranges: Vec<Vec<i32>> = read::read_vec2(q);
+    let q: u32 = read();
+    let ranges: Vec<Vec<i32>> = read_vec2(q);
 
     let t = make_kdtree(&mut points, 0, n as usize, 0, 2);
 

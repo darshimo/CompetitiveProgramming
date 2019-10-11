@@ -87,7 +87,7 @@ impl Ord for HuffmanTree {
 use HuffmanTree::{Leaf, Node};
 
 fn main() {
-    let s: String = read::read();
+    let s: String = read();
     let cv: Vec<char> = s.chars().collect();
 
     let mut map: BTreeMap<char, u32> = BTreeMap::new();

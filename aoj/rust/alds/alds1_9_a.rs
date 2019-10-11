@@ -32,8 +32,8 @@ fn right(i: usize) -> usize {
 }
 
 fn main() {
-    let h: usize = read::read();
-    let v: Vec<i32> = read::read_vec();
+    let h: usize = read();
+    let v: Vec<i32> = read_vec();
 
     for i in 0..h {
         print!("node {}: key = {}, ", i + 1, v[i]);

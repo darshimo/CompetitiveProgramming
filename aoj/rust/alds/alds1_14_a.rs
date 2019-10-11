@@ -20,8 +20,8 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 }
 
 fn main() {
-    let t: String = read::read();
-    let p: String = read::read();
+    let t: String = read();
+    let p: String = read();
 
     let t: Vec<char> = t.chars().collect();
     let p: Vec<char> = p.chars().collect();

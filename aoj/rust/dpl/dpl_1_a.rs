@@ -43,10 +43,10 @@ fn solve(dp: &mut Vec<Vec<u32>>, n: usize, m: usize, c: &Vec<u32>) {
 }
 
 fn main() {
-    let v: Vec<usize> = read::read_vec();
+    let v: Vec<usize> = read_vec();
     let n = v[0];
     let m = v[1] as usize;
-    let c: Vec<u32> = read::read_vec();
+    let c: Vec<u32> = read_vec();
 
     let mut dp: Vec<Vec<u32>> = vec![vec![0]; m];
 

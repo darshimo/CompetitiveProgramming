@@ -40,7 +40,7 @@ fn solve(mut m: u64, bits: Vec<bool>) -> u64 {
 }
 
 fn main() {
-    let v: Vec<u64> = read::read_vec();
+    let v: Vec<u64> = read_vec();
     let m = v[0];
     let n = v[1];
 

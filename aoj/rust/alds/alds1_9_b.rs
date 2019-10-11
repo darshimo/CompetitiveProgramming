@@ -57,8 +57,8 @@ fn build_max_heap(v: &mut Vec<i32>) {
 }
 
 fn main() {
-    let h: usize = read::read();
-    let mut v: Vec<i32> = read::read_vec();
+    let h: usize = read();
+    let mut v: Vec<i32> = read_vec();
 
     build_max_heap(&mut v);
 

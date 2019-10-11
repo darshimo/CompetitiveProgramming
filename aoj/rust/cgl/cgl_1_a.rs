@@ -24,11 +24,11 @@ fn norm(v: Vec<f64>) -> f64 {
 }
 
 fn main() {
-    let v: Vec<f64> = read::read_vec();
+    let v: Vec<f64> = read_vec();
     let p1 = vec![v[0], v[1]];
     let p2 = vec![v[2], v[3]];
-    let q: u32 = read::read();
-    let ps: Vec<Vec<f64>> = read::read_vec2(q);
+    let q: u32 = read();
+    let ps: Vec<Vec<f64>> = read_vec2(q);
 
     for p in ps {}
 }

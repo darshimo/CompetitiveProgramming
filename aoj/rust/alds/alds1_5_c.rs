@@ -87,7 +87,7 @@ fn koch(n: u32, p1: &Point, p2: &Point) {
 }
 
 fn main() {
-    let n: u32 = read::read();
+    let n: u32 = read();
 
     let p1 = Point::new(0.0, 0.0);
     let p2 = Point::new(100.0, 0.0);

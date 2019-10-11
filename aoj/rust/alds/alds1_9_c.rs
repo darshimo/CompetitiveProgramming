@@ -91,7 +91,7 @@ fn main() {
     let mut v: Vec<i32> = Vec::new();
 
     loop {
-        let s: String = read::read();
+        let s: String = read();
         if s == "end" {
             break;
         } else if s == "extract" {

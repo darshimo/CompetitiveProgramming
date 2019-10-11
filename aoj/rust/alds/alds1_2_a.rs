@@ -51,8 +51,8 @@ fn bubble_sort<T: Ord + Copy>(a: &mut Vec<T>, n: usize) -> u32 {
 }
 
 fn main() {
-    let n: usize = read::read();
-    let mut a: Vec<i32> = read::read_vec();
+    let n: usize = read();
+    let mut a: Vec<i32> = read_vec();
 
     let c = bubble_sort(&mut a, n);
 

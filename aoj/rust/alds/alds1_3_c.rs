@@ -48,8 +48,8 @@ fn print_vec_deque<T: Display>(a: &VecDeque<T>, n: usize) {
 }
 
 fn main() {
-    let n: u32 = read::read();
-    let commands: Vec<String> = read::read_col(n);
+    let n: u32 = read();
+    let commands: Vec<String> = read_col(n);
 
     let mut vd: VecDeque<String> = VecDeque::new();
 

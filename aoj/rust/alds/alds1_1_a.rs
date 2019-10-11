@@ -47,8 +47,8 @@ fn insertion_sort<T: Ord + Copy + Display>(a: &mut Vec<T>, n: usize) {
 }
 
 fn main() {
-    let n: usize = read::read();
-    let mut a: Vec<i32> = read::read_vec();
+    let n: usize = read();
+    let mut a: Vec<i32> = read_vec();
 
     insertion_sort(&mut a, n);
 }

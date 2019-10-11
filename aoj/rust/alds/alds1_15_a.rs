@@ -20,7 +20,7 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 }
 
 fn main() {
-    let n: i32 = read::read();
+    let n: i32 = read();
     let a = n / 25;
     let n = n % 25;
     let b = n / 10;

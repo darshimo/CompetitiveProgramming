@@ -20,7 +20,7 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 }
 
 fn main() {
-    let mut n: u32 = read::read();
+    let mut n: u32 = read();
 
     print!("{}:", n);
 

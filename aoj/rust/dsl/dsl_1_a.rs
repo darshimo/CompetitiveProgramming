@@ -76,11 +76,11 @@ impl UnionFind {
 }
 
 fn main() {
-    let nq: Vec<usize> = read::read_vec();
+    let nq: Vec<usize> = read_vec();
     let n = nq[0];
     let q = nq[1];
 
-    let coms: Vec<Vec<usize>> = read::read_vec2(q as u32);
+    let coms: Vec<Vec<usize>> = read_vec2(q as u32);
 
     let mut uf = UnionFind::new(n);
 

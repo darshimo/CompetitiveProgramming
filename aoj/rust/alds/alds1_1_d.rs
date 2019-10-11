@@ -20,8 +20,8 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 }
 
 fn main() {
-    let n: i32 = read::read();
-    let v: Vec<i32> = read::read_col(n as u32);
+    let n: i32 = read();
+    let v: Vec<i32> = read_col(n as u32);
 
     let mut min = std::cmp::min(v[0], v[1]);
     let mut max = v[1] - v[0];

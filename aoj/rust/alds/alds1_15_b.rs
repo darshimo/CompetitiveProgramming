@@ -20,11 +20,11 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 }
 
 fn main() {
-    let nw: Vec<u32> = read::read_vec();
+    let nw: Vec<u32> = read_vec();
     let n = nw[0];
     let mut w = nw[1] as f64;
 
-    let mut vw: Vec<Vec<f64>> = read::read_vec2(n);
+    let mut vw: Vec<Vec<f64>> = read_vec2(n);
 
     vw.sort_by(|a, b| (b[0] / b[1]).partial_cmp(&(a[0] / a[1])).unwrap());
 

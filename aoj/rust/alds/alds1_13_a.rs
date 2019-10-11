@@ -57,8 +57,8 @@ fn solve(map: &Vec<Vec<bool>>, v: &mut Vec<Vec<usize>>, cnt: u32) -> bool {
 }
 
 fn main() {
-    let k: u32 = read::read();
-    let mut v: Vec<Vec<usize>> = read::read_vec2(k);
+    let k: u32 = read();
+    let mut v: Vec<Vec<usize>> = read_vec2(k);
     let mut map: Vec<Vec<bool>> = vec![vec![false; 8]; 8];
     for rc in &v {
         map = put(&map, rc[0], rc[1]);

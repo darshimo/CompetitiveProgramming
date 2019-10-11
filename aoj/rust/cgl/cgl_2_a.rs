@@ -20,10 +20,10 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 }
 
 fn main() {
-    let q: u32 = read::read();
+    let q: u32 = read();
 
     for _ in 0..q {
-        let v: Vec<i32> = read::read_vec();
+        let v: Vec<i32> = read_vec();
         let x1 = v[2] - v[0];
         let y1 = v[3] - v[1];
         let x2 = v[6] - v[4];

@@ -22,11 +22,11 @@ pub fn read_col<T: std::str::FromStr>(n: u32) -> Vec<T> {
 use std::collections::VecDeque;
 
 fn main() {
-    let v: Vec<u32> = read::read_vec();
+    let v: Vec<u32> = read_vec();
     let n = v[0];
     let q = v[1];
 
-    let m: Vec<Vec<String>> = read::read_vec2(n);
+    let m: Vec<Vec<String>> = read_vec2(n);
 
     let mut queue: VecDeque<(&str, u32)> = VecDeque::new();
 

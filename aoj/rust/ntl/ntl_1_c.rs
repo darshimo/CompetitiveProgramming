@@ -33,8 +33,8 @@ fn lcm(a: u32, b: u32) -> u32 {
 }
 
 fn main() {
-    let _n: u8 = read::read();
-    let nums: Vec<u32> = read::read_vec();
+    let _n: u8 = read();
+    let nums: Vec<u32> = read_vec();
     // &head に注意
     if let Some((&head, tail)) = nums.split_first() {
         // &b に注意
